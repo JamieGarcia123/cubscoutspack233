@@ -7,7 +7,7 @@
       font-family: hashFont;
       src: url('Flood.otf');
   }
-  html, body{
+  body{
       color: #2d509f;    
       font-family: pack233Font;
       background-color: #cecece15;
