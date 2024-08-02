@@ -29,6 +29,7 @@
       width: 100%;
       height: 85px;
       color: #ffffff;
+      z-index: 1;
   }
   .headerContent{
       display: flex;
@@ -75,31 +76,85 @@
       width: 150px;
       color: #2d509f;
       text-transform: uppercase;
-      position: relative;
-      top: 15px;
+      align-content: center;
       font-weight: 700;
+      margin-top: 10px;
   }
   .heroButton:hover{
       background-color: #fadf3c;
   }
   .heroBG{
-      background-image: url('7118_R_33451_01_0057-photo-CSBC-1.JPG');
+      background-image: url('./images/7118_R_33451_01_0057-photo-CSBC-1.JPG');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
   }
+  .lionHeroBG{
+    background-image: url('./images/ranks/Lion.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+  }
+  .tigerHeroBG{
+    background-image: url('./images/ranks/Tiger.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 20%;
+
+  }
+  .wolfHeroBG{
+    background-image: url('./images/ranks/Wolf.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 20%;
+
+  }
+  .bearHeroBG{
+    background-image: url('./images/ranks/CS_bear-insignia-CSBC.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 30%;
+
+  }
+  .webelosHeroBG{
+    background-image: url('./images/ranks/webelo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    background-size: 20%;
+
+  }
+  .aolHeroBG{
+    background-image: url('./images/ranks/AOL.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+  }
+  .wolfHeroBG{
+    background-image: url('./images/ranks/Wolf.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+  }
   .wwaBG{
-      background-image: url('image1.jpg');
+      background-image: url('./images/image1.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
   }
   .ffsBG{
-      background-image: url('image0.jpg');
+      background-image: url('./images/image0.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
   }
+  .col{
+    flex-direction: column;
+    width: 100%; 
+}
   .col1{
       flex-direction: column;
       width: 50%;  
@@ -149,36 +204,61 @@
       justify-content: center;
       margin: 0px;
   }
+  .flex-row {
+    font-family: hashFont;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #2d509f;
+    color: #fadf3c;
+    height: 60px;
+    justify-content: space-between;
+    margin: 0px;
+}
   .derbyBG{
-      background-image: url('lego derby.jpg');
+      background-image: url('./images/lego derby.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 350px;
   }
   .friedrichBG{
-      background-image: url('freidreichBG.jpg');
+      background-image: url('./images/freidreichBG.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 350px;
   }
   .lseBG{
-      background-image: url('LSEelem.jpg');
+      background-image: url('./images/LSEelem.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 350px;
   }
   .aueBG{
-      background-image: url('aueElem.jpg');
+      background-image: url('./images/aueElem.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
       height: 350px;
   }
+ .mcandBG{
+    background-image: url('./images/mcand-elem.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+.ellisonBG{
+    background-image: url('./images/ellison-elem.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
   .rainGutterBG{
-      background-image: url('raingutter_regatta_bsa.jpg');
+      background-image: url('./images/raingutter_regatta_bsa.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
