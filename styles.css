@@ -283,6 +283,9 @@
   .denListContainer ul{
   
   }
+  ul {
+    padding: 20px;
+  }
   li{
       list-style: none;
       font-weight: bold;
@@ -365,9 +368,12 @@
   .m-auto{
       margin: auto;
   }
-  .d-none{
-      display: contents;
+  .d-block{
+      display: block;
   }
+  .d-contents{
+    display: contents;
+}
   .wwaBG .max-col-w-500  a{    background-color: #2d509f;
       color: #fadf3c;
       height: 25px;
@@ -434,8 +440,11 @@
           width: 90%;
           margin: auto;
       }
-      .d-none{
+      .d-block{
           display: none;
+      }
+      .d-contents{
+        display: none;
       }
       h1{
       font-size: 2.0em;
