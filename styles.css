@@ -404,6 +404,7 @@
       
       .footerContent{
           flex-direction: column;
+          height: 90%;
       }
       .heroButton{
         width: 110px;
@@ -460,8 +461,5 @@
       h2{
           font-size: 1.55em;
           margin: 10px 0px;
-      }
-      h3{
-          font-size: 1.25em;
       }
   }
