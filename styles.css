@@ -12,6 +12,7 @@
       font-family: pack233Font;
       background-color: #cecece15;
       letter-spacing: 1.1px;
+      margin: 0px;
   
   }
   a{
@@ -380,20 +381,46 @@
   
   @media (max-width: 600px) { 
       .hash{
-          font-size: 26px;
+          font-size: 22px;
       }
-      .heroContent, .footerContent{
+      .headerContainer{
+        flex-direction: column;
+      }
+      .heroContent{
+        flex-direction: row;
+      }
+      
+      .footerContent{
           flex-direction: column;
       }
-      .footerContainer{
-      height: 550px;
-  
-      }
-  
+      .heroButton{
+        width: 95px;
+        }
+        .footerContainer{
+            height: 400px;
+        }
+        .mobileHelp{
+            position: relative;
+            bottom: 15px;
+        }
       .asideContent{
           flex-direction: column;
           row-gap: 40px;
       }
+      .rankBadgeImg{
+        width: 90%
+      }
+      .overlay{
+        width: 90%;
+      }
+      .lseBG, .ellisonBG, .ffsBG, .wwaBG, .mcandBG, .aueBG {
+        height: 185px;
+      }
+      .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
+        background-size: 80%;
+      }
+      
+
       .col1{
           margin: auto;
           width: 90%;
