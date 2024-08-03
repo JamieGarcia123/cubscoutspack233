@@ -389,6 +389,12 @@
       .hash{
           font-size: 22px;
       }
+      .mobileHeaderHash{
+        position: fixed;
+        top: 45px;
+        left: 110px;
+        font-size: 16px;
+      }
       .headerContainer{
         flex-direction: column;
       }
@@ -400,7 +406,8 @@
           flex-direction: column;
       }
       .heroButton{
-        width: 95px;
+        width: 110px;
+        margin-top: 25px
         }
         .footerContainer{
             height: 400px;
