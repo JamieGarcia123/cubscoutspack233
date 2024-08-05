@@ -1,489 +1,501 @@
 /* Place your CSS styles in this file */
 @font-face {
-    font-family: pack233Font;
-    src: url('PlayfairDisplay-VariableFont_wght.ttf');
-  }
-  @font-face{
-      font-family: hashFont;
-      src: url('Flood.otf');
-  }
-  body{
-      color: #2d509f;    
-      font-family: pack233Font;
-      background-color: #cecece15;
-      letter-spacing: 1.1px;
-      margin: 0px;
-  
-  }
-  a{
-      text-decoration: none;
-      color: #05007f;
-  }
-  a:hover{
-      text-decoration: none;
-  }
-  .headerContainer{
-      position: fixed;
-      top: 0px;
-      display: flex;
-      background-color: #2d509f;
-      width: 100%;
-      height: 85px;
-      color: #ffffff;
-      z-index: 1;
-  }
-  .headerContent{
-      display: flex;
-      justify-content: space-between;
-      color: #ffffff;
-      font-size: 16px;
-      font-weight: 600;
-      width: 90%;
-      margin: auto;
-      max-width: 1200px;
-  }
-  .headerLogo{
-      height:65px;
-      width: 65px;
-  }
-  .hash{
-      font-family: hashFont !important;
-      font-size: 32px;
-      font-weight: 500;
-  }
-  .hash span{
-      color: #fadf3c;
-  }
-  /* hero sections */
-  .heroContainer{
-      margin: 85px auto 0px;
-      color: #2d509f;
-      width: 100%;
-      flex-direction: column;
-      justify-content: center;
-  }
-  .heroContent{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      height: 500px;
-      margin: auto;
-  }
-  .heroButton{
-      border: 2px solid #2d509f;
-      height: 40px;
-      border-radius: 5px;
-      padding: 10px;
-      width: 150px;
-      color: #2d509f;
-      text-transform: uppercase;
-      align-content: center;
-      font-weight: 700;
-      margin-top: 10px;
-  }
-  .heroButton:hover{
-      background-color: #fadf3c;
-  }
-  .heroBG{
-      background-image: url('./images/7118_R_33451_01_0057-photo-CSBC-1.JPG');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-  }
-  .lionHeroBG{
-    background-image: url('./images/ranks/Lion.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-  }
-  .tigerHeroBG{
-    background-image: url('./images/ranks/Tiger.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 20%;
-
-  }
-  .wolfHeroBG{
-    background-image: url('./images/ranks/Wolf.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 20%;
-
-  }
-  .bearHeroBG{
-    background-image: url('./images/ranks/CS_bear-insignia-CSBC.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 30%;
-
-  }
-  .webelosHeroBG{
-    background-image: url('./images/ranks/webelo.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-    background-size: 20%;
-
-  }
-  .aolHeroBG{
-    background-image: url('./images/ranks/AOL.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-  }
-  .wolfHeroBG{
-    background-image: url('./images/ranks/Wolf.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
-  }
-  .card{
-    width: 100%;
-    max-width: 500px;
-    border-radius: 6px;
-  }
-  .wwaBG{
-      background-image: url('./images/image1.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 325px;
-      border-radius: 6px;
-      width: 450px;
-  }
-  .ffsBG{
-      background-image: url('./images/image0.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 325px;
-      border-radius: 6px;
-      width: 450px;
-  }
-  .col{
-    flex-direction: column;
-    width: 100%; 
+font-family: pack233Font;
+src: url('PlayfairDisplay-VariableFont_wght.ttf');
 }
-  .col1{
-      flex-direction: column;
-      width: 50%;  
-  }
-  .col1 img{
-      height: 100%;
-      object-fit: contain;
-  }
-  .max-col-w-500{
-      max-width: 500px;
-      height: 375px;
-      margin: auto;
-      align-content: center;
-  
-  }
-  .col2{
-      align-content: center;
-      flex-direction: column;
-      width: 50%;
-      max-width: 500px;
-      margin: auto;
-  }
-  /* content sections (aside) */
-  .asideContainer{
-      width: 100%;
-      margin: auto;
-      justify-content: center;
-      
-  }
-  .asideContent{
-      display: flex;
-      max-width: 1200px;
-      width: 100%;
-      margin: auto;
-      flex-direction: row;
-      padding: 2.5% 0px;
-  }
-  
-  .flex-col {
-      font-family: hashFont;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-      background-color: #2d509f;
-      color: #fadf3c;
-      height: 75px;
-      justify-content: center;
-      margin: 0px;
-  }
-  .flex-row {
-    font-family: hashFont;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    background-color: #2d509f;
-    color: #fadf3c;
-    height: 60px;
-    justify-content: space-between;
-    margin: 0px;
+@font-face{
+font-family: hashFont;
+src: url('Flood.otf');
 }
-  .derbyBG{
-      background-image: url('./images/lego derby.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 350px;
-  }
-  .friedrichBG{
-      background-image: url('./images/freidreichBG.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 325px;
-      border-radius: 6px;
-      width: 450px;
-  }
-  .lseBG{
-      background-image: url('./images/LSEelem.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 325px;
-      border-radius: 6px;
-      width: 450px;
-  }
-  .aueBG{
-      background-image: url('./images/aueElem.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 325px;
-      border-radius: 6px;
-      width: 450px;
-  }
- .mcandBG{
-    background-image: url('./images/mcand-elem.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 325px;
-    border-radius: 6px;
-    width: 450px;
+body{
+color: #2d509f;    
+font-family: pack233Font;
+background-color: #cecece15;
+letter-spacing: 1.1px;
+margin: 0px;
+
+}
+a{
+text-decoration: none;
+color: #05007f;
+}
+a:hover{
+text-decoration: none;
+}
+.headerContainer{
+position: fixed;
+top: 0px;
+display: flex;
+background-color: #2d509f;
+width: 100%;
+height: 85px;
+color: #ffffff;
+z-index: 1;
+}
+.headerContent{
+display: flex;
+justify-content: space-between;
+color: #ffffff;
+font-size: 16px;
+font-weight: 600;
+width: 90%;
+margin: auto;
+max-width: 1200px;
+}
+.headerLogo{
+height:65px;
+width: 65px;
+}
+.hash{
+font-family: hashFont !important;
+font-size: 32px;
+font-weight: 500;
+}
+.hash span{
+color: #fadf3c;
+}
+/* hero sections */
+.heroContainer{
+margin: 85px auto 0px;
+color: #2d509f;
+width: 100%;
+flex-direction: column;
+justify-content: center;
+}
+.heroContent{
+width: 100%;
+display: flex;
+flex-direction: row;
+height: 420px;
+margin: auto;
+}
+.heroButton{
+border: 2px solid #2d509f;
+height: 40px;
+border-radius: 5px;
+padding: 10px;
+width: 150px;
+color: #2d509f;
+text-transform: uppercase;
+align-content: center;
+font-weight: 700;
+margin-top: 10px;
+}
+.heroButton:hover{
+background-color: #fadf3c;
+}
+.heroBG{
+background-image: url('./images/7118_R_33451_01_0057-photo-CSBC-1.JPG');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.lionHeroBG{
+background-image: url('./images/ranks/Lion.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+}
+.tigerHeroBG{
+background-image: url('./images/ranks/Tiger.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+background-size: 20%;
+
+}
+.wolfHeroBG{
+background-image: url('./images/ranks/Wolf.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+background-size: 20%;
+
+}
+.bearHeroBG{
+background-image: url('./images/ranks/CS_bear-insignia-CSBC.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+background-size: 30%;
+
+}
+.webelosHeroBG{
+background-image: url('./images/ranks/webelo.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+background-size: 20%;
+
+}
+.aolHeroBG{
+background-image: url('./images/ranks/AOL.jpeg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+}
+.wolfHeroBG{
+background-image: url('./images/ranks/Wolf.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-color: #ffffff;
+}
+.card{
+width: 100%;
+max-width: 500px;
+border-radius: 6px;
+}
+.wwaBG{
+background-image: url('./images/image1.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
+}
+.ffsBG{
+background-image: url('./images/image0.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
+}
+.col{
+flex-direction: column;
+width: 100%; 
+}
+.col1{
+flex-direction: column;
+width: 50%;  
+}
+.col1 img{
+height: 100%;
+object-fit: contain;
+}
+.max-col-w-500{
+max-width: 500px;
+height: 375px;
+margin: auto;
+align-content: center;
+
+}
+.col2{
+align-content: center;
+flex-direction: column;
+width: 50%;
+max-width: 500px;
+margin: auto;
+}
+/* content sections (aside) */
+.asideContainer{
+width: 100%;
+margin: auto;
+justify-content: center;
+
+}
+.asideContent{
+display: flex;
+max-width: 1200px;
+width: 100%;
+margin: auto;
+flex-direction: row;
+padding: 2.5% 0px;
+}
+
+.flex-col {
+font-family: hashFont;
+display: flex;
+flex-direction: column;
+width: 100%;
+background-color: #2d509f;
+color: #fadf3c;
+height: 75px;
+justify-content: center;
+margin: 0px;
+}
+.flex-row {
+font-family: hashFont;
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color: #2d509f;
+color: #fadf3c;
+height: 60px;
+justify-content: space-between;
+margin: 0px;
+}
+.derbyBG{
+background-image: url('./images/lego derby.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 350px;
+}
+.friedrichBG{
+background-image: url('./images/freidreichBG.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
+}
+.lseBG{
+background-image: url('./images/LSEelem.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
+}
+.aueBG{
+background-image: url('./images/aueElem.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
+}
+.mcandBG{
+background-image: url('./images/mcand-elem.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
 }
 .ellisonBG{
-    background-image: url('./images/ellison-elem.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 325px;
-    border-radius: 6px;
-    width: 450px;
+background-image: url('./images/ellison-elem.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 325px;
+border-radius: 6px;
+width: 450px;
 }
-  .rainGutterBG{
-      background-image: url('./images/raingutter_regatta_bsa.jpg');
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 350px;  
-  }
-  .overlay  {
-      background-color: #00000075;
-      width: 80%;
-      margin: auto;
-      color: white;
-      text-align: center;
-      padding: 1% 0px;
-  }
-  .titleBG{
-      background-color: #05007f;
-      color: #fadf3c;
-      padding: 10px;
-      position: absolute;
-  }
-  /* den list */
-  .denListContainer ul{
-  
-  }
-  ul {
-    padding: 20px;
-  }
-  li{
-      list-style: none;
-      font-weight: bold;
-      padding: 5px 0px;
-  
-  }
-  /* footer */
-  .footerContainer{
-      width: 100%;
-      height: 250px;
-      background-color: #fadf3c;
-  }
-  .footerContent{
-      display: flex;
-      flex-direction: row;
-      max-width: 1200px;
-      width: 90%;
-      margin: auto;
-      padding-top: 30px;
-  }
-  .footerCol{
-      flex-direction: column;
-      width: 33%;
-      display: flex;
-      margin: auto;
-      justify-content: center;
-      align-items: center;
-  }
-  .footerButton{
-      border: 2px solid #2d509f;
-      height: 40px;
-      border-radius: 5px;
-      align-content: center;
-      padding: 10px;
-      color: #fadf3c;
-      width: 150px;
-      text-align: center;
-      background-color: #2d509f;
-      text-transform: uppercase;
-      font-weight: 700;
-  }
-  .footerButton:hover{
-      background-color: #fadf3c;
-      color: #2d509f;
-  }
-  
-  /* globals */
-  .text-center{
-      text-align: center;
-  }
-  .background-yellow{
-      background-color: #fadf3c25;
-  }
-  h1, h2, h3{
-      font-weight: 600;
-  }
-  h1{
-      font-size: 2.5em;
-      margin: 10px auto;
-  }
-  h2{
-      font-size: 2.0em;
-      margin: 10px 0px;
-  }
-  h3{
-      font-size: 1.35em;
-  }
-  p{
-      font-weight: 600;
-      margin-top: 5px;
-      margin-bottom: 5px;
-      font-size: 18px;
-  }
-  .p-top{
-      padding-top: 1%;
-  }
-  .j-content-c{
-      justify-content: center;
-  }
-  .m-auto{
-      margin: auto;
-  }
-  .d-block{
-      display: block;
-  }
-  .d-contents{
-    display: contents;
+.rainGutterBG{
+background-image: url('./images/raingutter_regatta_bsa.jpg');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 350px;  
+}
+.overlay  {
+background-color: #00000080;
+width: 80%;
+margin: auto;
+color: white;
+text-align: center;
+padding: 1% 0px;
+}
+.titleBG{
+background-color: #05007f;
+color: #fadf3c;
+padding: 10px;
+position: absolute;
+}
+/* den list */
+.denListContainer ul{
+
+}
+ul {
+padding: 20px;
+}
+li{
+list-style: none;
+font-weight: bold;
+padding: 5px 0px;
+
+}
+/* footer */
+.footerContainer{
+width: 100%;
+height: 250px;
+background-color: #fadf3c;
+}
+.footerContent{
+display: flex;
+flex-direction: row;
+max-width: 1200px;
+width: 90%;
+margin: auto;
+padding-top: 30px;
+}
+.footerCol{
+flex-direction: column;
+width: 33%;
+display: flex;
+margin: auto;
+justify-content: center;
+align-items: center;
+}
+.footerButton{
+border: 2px solid #2d509f;
+height: 40px;
+border-radius: 5px;
+align-content: center;
+padding: 10px;
+color: #fadf3c;
+width: 150px;
+text-align: center;
+background-color: #2d509f;
+text-transform: uppercase;
+font-weight: 700;
+}
+.footerButton:hover{
+background-color: #fadf3c;
+color: #2d509f;
 }
 
-  
-  
-  /* Mobile rendering */
-  
-  @media (max-width: 600px) { 
-      .hash{
-          font-size: 22px;
-      }
-      .mobileHeaderHash{
-        position: fixed;
-        top: 45px;
-        left: 110px;
-        font-size: 16px;
-      }
-      .headerContainer{
-        flex-direction: column;
-      }
-      .heroContent{
-        flex-direction: row;
-      }
-      
-      .footerContent{
-          flex-direction: column;
-          height: 90%;
-      }
-      .heroButton{
-        width: 110px;
-        margin-top: 25px
-        }
-        .footerContainer{
-            height: 400px;
-        }
-        .mobileHelp{
-            position: relative;
-            bottom: 15px;
-        }
-      .asideContent{
-          flex-direction: column;
-          row-gap: 40px;
-      }
-      .rankBadgeImg{
-        width: 90%
-      }
-      .overlay{
-        width: 90%;
-      }
-      .lseBG, .ellisonBG, .ffsBG, .wwaBG, .mcandBG, .aueBG {
-        height: 185px;
-      }
-      .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
-        background-size: 80%;
-      }
-      
+/* globals */
+.text-center{
+text-align: center;
+}
+.background-yellow{
+background-color: #fadf3c25;
+}
+h1, h2, h3{
+font-weight: 600;
+}
+h1{
+font-size: 2.5em;
+margin: 10px auto;
+}
+h2{
+font-size: 2.0em;
+margin: 10px 0px;
+}
+h3{
+font-size: 1.35em;
+}
+p{
+font-weight: 600;
+margin-top: 5px;
+margin-bottom: 5px;
+font-size: 18px;
+}
+.p-top{
+padding-top: 1%;
+}
+.j-content-c{
+justify-content: center;
+}
+.m-auto{
+margin: auto;
+}
+.d-block{
+display: block;
+}
+.d-contents{
+display: contents;
+}
 
-      .col1{
-          margin: auto;
-          width: 90%;
-      }
-      .col2{
-          margin:0px auto;
-          width: 90%;
-          padding: 25px 0px;
-      }
-      .footerCol{
-          width: 90%;
-          margin: auto;
-      }
-      .d-block{
-          display: none;
-      }
-      .d-contents{
-        display: none;
-      }
-      h1{
-      font-size: 2.0em;
-      margin: 10px auto;
-      }
-      h2{
-          font-size: 1.55em;
-          margin: 10px 0px;
-      }
-  }
 
-  /* font awsome customizations*/
 
-  .fa-paper-plane::before {
-    font-size: 15px;
-    position: relative;
-    top: -5px;
-    left: 5px;
-  }
+/* Mobile rendering */
+
+@media (max-width: 600px) { 
+.hash{
+    font-size: 22px;
+}
+.mobileHeaderHash{
+position: fixed;
+top: 45px;
+left: 110px;
+font-size: 16px;
+}
+.headerContainer{
+flex-direction: column;
+}
+.heroContent{
+flex-direction: row;
+}
+
+.footerContent{
+flex-direction: column;
+height: 90%;
+}
+.heroButton{
+width: 140px;
+margin-top: 25px
+}
+.footerContainer{
+height: 400px;
+}
+.mobileHelp{
+position: relative;
+bottom: 15px;
+}
+.asideContent{
+flex-direction: column;
+row-gap: 20px
+}
+.rankBadgeImg{
+width: 90%
+}
+.overlay{
+width: 90%;
+}
+.lseBG, .ellisonBG, .ffsBG, .wwaBG, .mcandBG, .aueBG, .friedrichBG {
+height: 185px;
+width: 90%;
+}
+.tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
+background-size: 80%;
+}
+
+.col1{
+    margin: auto;
+    width: 90%;
+}
+.col2{
+    margin:0px auto;
+    width: 90%;
+    padding: 0px 0px;
+}
+.footerCol{
+    width: 90%;
+    margin: auto;
+}
+.d-block{
+    display: none;
+}
+.d-contents{
+display: none;
+}
+h1{
+font-size: 2.0em;
+margin: 10px auto;
+}
+h2{
+    font-size: 1.55em;
+    margin: 10px 0px;
+}
+}
+
+/* font awsome customizations*/
+
+.fa-paper-plane::before {
+font-size: 15px;
+position: relative;
+top: -5px;
+left: 5px;
+}
+
+.fa-map-pin::before {
+font-size: 17px;
+position: relative;
+top: 0px;
+left: -10px;
+}
+.fa-instagram{
+    font-size: 120px;
+    color: #05007f;
+
+}
