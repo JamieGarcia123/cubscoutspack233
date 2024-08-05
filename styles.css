@@ -140,17 +140,28 @@
     background-repeat: no-repeat;
     background-color: #ffffff;
   }
+  .card{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 6px;
+  }
   .wwaBG{
       background-image: url('./images/image1.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
+      height: 325px;
+      border-radius: 6px;
+      width: 450px;
   }
   .ffsBG{
       background-image: url('./images/image0.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
+      height: 325px;
+      border-radius: 6px;
+      width: 450px;
   }
   .col{
     flex-direction: column;
@@ -228,35 +239,45 @@
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 350px;
+      height: 325px;
+      border-radius: 6px;
+      width: 450px;
   }
   .lseBG{
       background-image: url('./images/LSEelem.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 350px;
+      height: 325px;
+      border-radius: 6px;
+      width: 450px;
   }
   .aueBG{
       background-image: url('./images/aueElem.jpg');
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 350px;
+      height: 325px;
+      border-radius: 6px;
+      width: 450px;
   }
  .mcandBG{
     background-image: url('./images/mcand-elem.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 325px;
+    border-radius: 6px;
+    width: 450px;
 }
 .ellisonBG{
     background-image: url('./images/ellison-elem.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 350px;
+    height: 325px;
+    border-radius: 6px;
+    width: 450px;
 }
   .rainGutterBG{
       background-image: url('./images/raingutter_regatta_bsa.jpg');
@@ -374,13 +395,7 @@
   .d-contents{
     display: contents;
 }
-  .wwaBG .max-col-w-500  a{    background-color: #2d509f;
-      color: #fadf3c;
-      height: 25px;
-      width: inherit;
-      border: 1px solid #2d509f;
-      border-radius: 0 0 6px 6px;
-  }
+
   
   
   /* Mobile rendering */
@@ -462,4 +477,13 @@
           font-size: 1.55em;
           margin: 10px 0px;
       }
+  }
+
+  /* font awsome customizations*/
+
+  .fa-paper-plane::before {
+    font-size: 15px;
+    position: relative;
+    top: -5px;
+    left: 5px;
   }
