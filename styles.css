@@ -415,10 +415,10 @@ flex-direction: column;
 }
 .heroContent{
 flex-direction: row;
-height: 420px
+height: 460px
 }
 
-.footerContent{
+.footerContent{a
 flex-direction: column;
 height: 90%;
 }
@@ -427,7 +427,7 @@ width: 140px;
 margin-top: 25px
 }
 .footerContainer{
-height: 400px;
+height: 650px;
 }
 .mobileHelp{
 position: relative;
