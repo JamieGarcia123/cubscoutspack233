@@ -40,7 +40,7 @@ font-size: 16px;
 font-weight: 600;
 width: 90%;
 margin: auto;
-max-width: 1200px;
+max-width: 1400px;
 }
 .headerLogo{
 height:65px;
@@ -150,18 +150,14 @@ background-image: url('./images/image1.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .ffsBG{
 background-image: url('./images/image0.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .col{
 flex-direction: column;
@@ -175,8 +171,8 @@ width: 50%;
 height: 100%;
 object-fit: contain;
 }
-.max-col-w-500{
-max-width: 500px;
+.max-col-w-400{
+max-width: 400px;
 height: 375px;
 margin: auto;
 align-content: center;
@@ -189,6 +185,13 @@ width: 50%;
 max-width: 500px;
 margin: auto;
 }
+.col3{
+    align-content: center;
+    flex-direction: column;
+    width: 33%;
+    max-width: 400px;
+    margin: auto;
+    }
 /* content sections (aside) */
 .asideContainer{
 width: 100%;
@@ -198,7 +201,7 @@ justify-content: center;
 }
 .asideContent{
 display: flex;
-max-width: 1200px;
+max-width: 1400px;
 width: 100%;
 margin: auto;
 flex-direction: row;
@@ -239,45 +242,35 @@ background-image: url('./images/freidreichBG.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .lseBG{
 background-image: url('./images/LSEelem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .aueBG{
 background-image: url('./images/aueElem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .mcandBG{
 background-image: url('./images/mcand-elem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .ellisonBG{
 background-image: url('./images/ellison-elem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 325px;
 border-radius: 6px;
-width: 450px;
 }
 .rainGutterBG{
 background-image: url('./images/raingutter_regatta_bsa.jpg');
@@ -322,7 +315,7 @@ background-color: #fadf3c;
 .footerContent{
 display: flex;
 flex-direction: row;
-max-width: 1200px;
+max-width: 1400px;
 width: 90%;
 margin: auto;
 padding-top: 30px;
@@ -386,6 +379,9 @@ padding-top: 1%;
 .j-content-c{
 justify-content: center;
 }
+.j-content-dynamic{
+    justify-content: space-around;
+}
 .m-auto{
 margin: auto;
 }
@@ -400,7 +396,7 @@ display: contents;
 
 /* Mobile rendering */
 
-@media (max-width: 600px) { 
+@media (max-width: 800px) { 
 .hash{
     font-size: 22px;
 }
@@ -450,12 +446,20 @@ width: 90%;
 .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
 background-size: 80%;
 }
-
+.j-content-dynamic{
+    display: grid;
+    justify-content: center;
+}
 .col1{
     margin: auto;
     width: 90%;
 }
 .col2{
+    margin:0px auto;
+    width: 90%;
+    padding: 0px 0px;
+}
+.col3{
     margin:0px auto;
     width: 90%;
     padding: 0px 0px;
@@ -499,4 +503,9 @@ left: -10px;
     font-size: 120px;
     color: #05007f;
 
+}
+
+/* Insta CSS  */
+.xwxc41k {
+    display: none !important;
 }
