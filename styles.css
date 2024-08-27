@@ -235,7 +235,7 @@ background-image: url('./images/lego derby.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-height: 350px;
+border-radius: 6px;
 }
 .friedrichBG{
 background-image: url('./images/freidreichBG.jpg');
