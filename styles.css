@@ -10,7 +10,7 @@ src: url('Flood.otf');
 body{
 color: #2d509f;    
 font-family: pack233Font;
-background-color: #cecece15;
+background-color: #ffffff;
 letter-spacing: 1.1px;
 margin: 0px;
 
@@ -173,11 +173,17 @@ object-fit: contain;
 }
 .max-col-w-400{
 max-width: 400px;
-height: 375px;
+height: 325px;
 margin: auto;
 align-content: center;
-
 }
+.max-col-w-300{
+    max-width: 300px;
+    height: 275px;
+    margin: auto;
+    align-content: center;
+}
+
 .col2{
 align-content: center;
 flex-direction: column;
@@ -189,9 +195,16 @@ margin: auto;
     align-content: center;
     flex-direction: column;
     width: 33%;
-    max-width: 400px;
+    max-width: 300px;
     margin: auto;
     }
+.col4{
+    align-content: center;
+    flex-direction: column;
+    width: 25%;
+    max-width: 400px;
+    margin: auto;
+}
 /* content sections (aside) */
 .asideContainer{
 width: 100%;
@@ -294,9 +307,9 @@ padding: 10px;
 position: absolute;
 }
 /* den list */
-/* .denListContainer ul{
-
-} */
+.denListContainer {
+    justify-content: stretch;
+}
 ul {
 padding: 20px;
 }
@@ -460,6 +473,11 @@ background-size: 80%;
     padding: 0px 0px;
 }
 .col3{
+    margin:0px auto;
+    width: 90%;
+    padding: 0px 0px;
+}
+.col4{
     margin:0px auto;
     width: 90%;
     padding: 0px 0px;
