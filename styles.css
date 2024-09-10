@@ -328,8 +328,8 @@ padding: 5px 0px;
 /* footer */
 .footerContainer{
 width: 100%;
-height: 250px;
-background-color: #fadf3c;
+height: 350px;
+background: linear-gradient(#ffffff, #fadf3c80, #2d509f80);
 }
 .footerContent{
 display: flex;
@@ -337,7 +337,7 @@ flex-direction: row;
 max-width: 1400px;
 width: 90%;
 margin: auto;
-padding-top: 30px;
+padding-top: 90px;
 }
 .footerCol{
 flex-direction: column;
