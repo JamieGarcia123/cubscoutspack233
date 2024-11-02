@@ -91,11 +91,11 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 .kidsBG{
-    background-image: url('./images/BSA_0546-edit-photo-CSBC.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
+background-image: url('./images/pack233.png');
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 .lionHeroBG{
 background-image: url('./images/ranks/Lion.jpg');
 background-position: center center;
