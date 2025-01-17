@@ -474,7 +474,7 @@ font-size: 16px;
 flex-direction: column;
 }
 .heroContent{
-flex-direction: row;
+display: grid !important;
 height: 460px
 }
 
@@ -508,7 +508,10 @@ height: 235px;
 width: 90%;
 }
 .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
-background-size: 80%;
+background-size: 50%;
+}
+.wolfInActionPic, .lionInActionPic, .aolInActionPic, .bearInActionPic, .tigerInActionPic, .webeloInActionPic{
+    background-size: 80%;
 }
 
 .j-content-dynamic{
