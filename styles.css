@@ -115,8 +115,13 @@ background-image: url('./images/ranks/Wolf.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 20%;
-
+background-size: 40%;
+}
+.wolfInActionPic{
+    background-image: url('./images/Pack Meeting/Dgt 419_2024 Miranda Alegría_Cub Scout Pack 233_Fall Award  Ceremony_San Antonio_TX2024_09_23_0022.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .bearHeroBG{
 background-image: url('./images/ranks/CS_bear-insignia-CSBC.jpg');
