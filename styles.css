@@ -10,7 +10,7 @@ src: url('Flood.otf');
 body{
 color: #2d509f;    
 font-family: pack233Font;
-background-color: #ffffff;
+background-color: #cecece15;
 letter-spacing: 1.1px;
 margin: 0px;
 
@@ -40,7 +40,7 @@ font-size: 16px;
 font-weight: 600;
 width: 90%;
 margin: auto;
-max-width: 1400px;
+max-width: 1200px;
 }
 .headerLogo{
 height:65px;
@@ -85,13 +85,7 @@ margin-top: 10px;
 background-color: #fadf3c;
 }
 .heroBG{
-background-image: url('./images/Halloween-meeting/Dgt 420_2024 Miranda Alegría_Cub Scout Pack 233_Crownridge Canyon Natural Area_San Antonio_TX_2024_10_06_0032 1.JPG');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-.kidsBG{
-background-image: url('./images/pack233.png');
+background-image: url('./images/7118_R_33451_01_0057-photo-CSBC-1.JPG');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -101,80 +95,42 @@ background-image: url('./images/ranks/Lion.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 50%;
-}
-.lionInActionPic{
-    background-image: url('./images/Pack Meeting/Dgt 419_2024 Miranda Alegría_Cub Scout Pack 233_Fall Award  Ceremony_San Antonio_TX2024_09_23_0011.JPG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
 }
 .tigerHeroBG{
 background-image: url('./images/ranks/Tiger.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 40%;
-}
-.tigerInActionPic{
-    background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0010.JPG');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
+background-size: 20%;
+
 }
 .wolfHeroBG{
 background-image: url('./images/ranks/Wolf.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 40%;
-}
-.wolfInActionPic{
-    background-image: url('./images/Pack Meeting/Dgt 419_2024 Miranda Alegría_Cub Scout Pack 233_Fall Award  Ceremony_San Antonio_TX2024_09_23_0022.webp');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
+background-size: 20%;
+
 }
 .bearHeroBG{
 background-image: url('./images/ranks/CS_bear-insignia-CSBC.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 40%;
+background-size: 30%;
 
-}
-.bearInActionPic{
-    background-image: url('./images/Pack Meeting/Dgt 419_2024 Miranda Alegría_Cub Scout Pack 233_Fall Award  Ceremony_San Antonio_TX2024_09_23_0024.JPG');
-    background-position: top;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
 }
 .webelosHeroBG{
 background-image: url('./images/ranks/webelo.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 30%;
+background-size: 20%;
 
-}
-.webeloInActionPic{
-    background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0015.JPG');
-    background-position: top center;
-    object-fit: contain;
-    background-repeat: no-repeat;
-    background-color: #ffffff;
 }
 .aolHeroBG{
 background-image: url('./images/ranks/AOL.jpeg');
 background-position: center center;
-background-repeat: no-repeat;
-background-color: #ffffff;
-background-size: 50%;
-}
-.aolInActionPic{
-background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0005.JPG');
-background-position: top center;
-object-fit: contain;
 background-repeat: no-repeat;
 background-color: #ffffff;
 }
@@ -190,18 +146,22 @@ max-width: 500px;
 border-radius: 6px;
 }
 .wwaBG{
-background-image: url('./images/IMG_8035.JPG');
+background-image: url('./images/image1.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .ffsBG{
 background-image: url('./images/image0.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .col{
 flex-direction: column;
@@ -215,39 +175,19 @@ width: 50%;
 height: 100%;
 object-fit: contain;
 }
-.max-col-w-400{
-max-width: 400px;
-height: 325px;
+.max-col-w-500{
+max-width: 500px;
+height: 375px;
 margin: auto;
 align-content: center;
-}
-.max-col-w-300{
-    max-width: 300px;
-    height: 275px;
-    margin: auto;
-    align-content: center;
-}
 
+}
 .col2{
 align-content: center;
 flex-direction: column;
 width: 50%;
 max-width: 500px;
 margin: auto;
-}
-.col3{
-    align-content: center;
-    flex-direction: column;
-    width: 33%;
-    max-width: 300px;
-    margin: auto;
-    }
-.col4{
-    align-content: center;
-    flex-direction: column;
-    width: 25%;
-    max-width: 400px;
-    margin: auto;
 }
 /* content sections (aside) */
 .asideContainer{
@@ -258,7 +198,7 @@ justify-content: center;
 }
 .asideContent{
 display: flex;
-max-width: 1400px;
+max-width: 1200px;
 width: 100%;
 margin: auto;
 flex-direction: row;
@@ -292,49 +232,52 @@ background-image: url('./images/lego derby.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
-border-radius: 6px;
+height: 350px;
 }
 .friedrichBG{
 background-image: url('./images/freidreichBG.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .lseBG{
 background-image: url('./images/LSEelem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
-.hikeBG{
-    background-image: url('./images/hike-1-1-2025.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 6px;
-    }
 .aueBG{
 background-image: url('./images/aueElem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .mcandBG{
 background-image: url('./images/mcand-elem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .ellisonBG{
 background-image: url('./images/ellison-elem.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
+height: 325px;
 border-radius: 6px;
+width: 450px;
 }
 .rainGutterBG{
 background-image: url('./images/raingutter_regatta_bsa.jpg');
@@ -352,14 +295,14 @@ text-align: center;
 padding: 1% 0px;
 }
 .titleBG{
-background-color: #05007f70;
+background-color: #05007f;
 color: #fadf3c;
 padding: 10px;
 position: absolute;
 }
 /* den list */
-.denListContainer {
-    justify-content: stretch;
+.denListContainer ul{
+
 }
 ul {
 padding: 20px;
@@ -373,16 +316,16 @@ padding: 5px 0px;
 /* footer */
 .footerContainer{
 width: 100%;
-height: 350px;
-background: linear-gradient(#ffffff, #fadf3c80, #2d509f80);
+height: 250px;
+background-color: #fadf3c;
 }
 .footerContent{
 display: flex;
 flex-direction: row;
-max-width: 1400px;
+max-width: 1200px;
 width: 90%;
 margin: auto;
-padding-top: 90px;
+padding-top: 30px;
 }
 .footerCol{
 flex-direction: column;
@@ -443,9 +386,6 @@ padding-top: 1%;
 .j-content-c{
 justify-content: center;
 }
-.j-content-dynamic{
-    justify-content: space-around;
-}
 .m-auto{
 margin: auto;
 }
@@ -457,12 +397,15 @@ display: contents;
 }
 
 
-
 /* Mobile rendering */
 
-@media (max-width: 800px) { 
+@media (max-width: 600px) { 
 .hash{
     font-size: 22px;
+}
+.troopPhoto{
+    width: 285px ;
+    height: 240px;
 }
 .mobileHeaderHash{
 position: fixed;
@@ -474,7 +417,7 @@ font-size: 16px;
 flex-direction: column;
 }
 .heroContent{
-display: grid !important;
+flex-direction: row;
 height: 460px
 }
 
@@ -504,35 +447,18 @@ width: 90%
 width: 90%;
 }
 .lseBG, .ellisonBG, .ffsBG, .wwaBG, .mcandBG, .aueBG, .friedrichBG {
-height: 235px;
+height: 185px;
 width: 90%;
 }
 .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
-background-size: 50%;
-}
-.wolfInActionPic, .lionInActionPic, .aolInActionPic, .bearInActionPic, .tigerInActionPic, .webeloInActionPic{
-    background-size: 80%;
+background-size: 80%;
 }
 
-.j-content-dynamic{
-    display: grid;
-    justify-content: center;
-}
 .col1{
     margin: auto;
     width: 90%;
 }
 .col2{
-    margin:0px auto;
-    width: 90%;
-    padding: 0px 0px;
-}
-.col3{
-    margin:0px auto;
-    width: 90%;
-    padding: 0px 0px;
-}
-.col4{
     margin:0px auto;
     width: 90%;
     padding: 0px 0px;
@@ -576,9 +502,4 @@ left: -10px;
     font-size: 120px;
     color: #05007f;
 
-}
-
-/* Insta CSS  */
-.xwxc41k {
-    display: none !important;
 }
