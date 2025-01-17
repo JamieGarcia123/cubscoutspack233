@@ -131,8 +131,15 @@ background-image: url('./images/ranks/webelo.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 20%;
+background-size: 30%;
 
+}
+.webeloInActionPic{
+    background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0015.JPG');
+    background-position: top center;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .aolHeroBG{
 background-image: url('./images/ranks/AOL.jpeg');
