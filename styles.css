@@ -270,6 +270,13 @@ background-repeat: no-repeat;
 background-size: cover;
 border-radius: 6px;
 }
+.hikeBG{
+    background-image: url('./images/hike-1-1-2025.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+    }
 .aueBG{
 background-image: url('./images/aueElem.jpg');
 background-position: center center;
