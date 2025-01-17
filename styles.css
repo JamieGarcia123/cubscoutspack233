@@ -461,6 +461,14 @@ display: contents;
 /* Mobile rendering */
 
 @media (max-width: 800px) { 
+.whatsnextphotos{
+    width: 285px ;
+    height: 260px;
+}
+.longerwhatsnextphotos{
+    width: 285px ;
+    height: 125px;
+}
 .hash{
     font-size: 22px;
 }
@@ -507,11 +515,16 @@ width: 90%;
 height: 235px;
 width: 90%;
 }
-.tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
+.tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG {
 background-size: 50%;
+
 }
-.wolfInActionPic, .lionInActionPic, .aolInActionPic, .bearInActionPic, .tigerInActionPic, .webeloInActionPic{
+.webelosHeroBG {
+    background-size: 30%;
+}
+.wolfInActionPic, .lionInActionPic, .aolInActionPic, .bearInActionPic, .tigerInActionPic, .webeloInActionPic, .aolHeroBG{
     background-size: 80%;
+    margin-bottom: 10px
 }
 
 .j-content-dynamic{
