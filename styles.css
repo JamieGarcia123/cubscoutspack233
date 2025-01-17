@@ -139,6 +139,14 @@ background-image: url('./images/ranks/AOL.jpeg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
+background-size: 50%;
+}
+.aolInActionPic{
+background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0005.JPG');
+background-position: top center;
+object-fit: contain;
+background-repeat: no-repeat;
+background-color: #ffffff;
 }
 .wolfHeroBG{
 background-image: url('./images/ranks/Wolf.jpg');
@@ -472,6 +480,7 @@ width: 90%;
 .tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG, .aolHeroBG {
 background-size: 80%;
 }
+
 .j-content-dynamic{
     display: grid;
     justify-content: center;
