@@ -85,7 +85,7 @@ margin-top: 10px;
 background-color: #fadf3c;
 }
 .heroBG{
-background-image: url('./images/7118_R_33451_01_0057-photo-CSBC-1.JPG');
+background-image: url('./images/Halloween-meeting/Dgt 420_2024 Miranda Alegría_Cub Scout Pack 233_Crownridge Canyon Natural Area_San Antonio_TX_2024_10_06_0032 1.JPG');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -101,14 +101,26 @@ background-image: url('./images/ranks/Lion.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
+background-size: 50%;
+}
+.lionInActionPic{
+    background-image: url('./images/Pack Meeting/Dgt 419_2024 Miranda Alegría_Cub Scout Pack 233_Fall Award  Ceremony_San Antonio_TX2024_09_23_0011.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .tigerHeroBG{
 background-image: url('./images/ranks/Tiger.jpg');
 background-position: center center;
 background-repeat: no-repeat;
 background-color: #ffffff;
-background-size: 20%;
-
+background-size: 40%;
+}
+.tigerInActionPic{
+    background-image: url('./images/Pack Meeting/Dgt 424_2024 Miranda Alegria_Cub Scout Pack 233_November Award Ceremony_San Antonio_TX_2024_11_18_0010.JPG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .wolfHeroBG{
 background-image: url('./images/ranks/Wolf.jpg');
@@ -178,7 +190,7 @@ max-width: 500px;
 border-radius: 6px;
 }
 .wwaBG{
-background-image: url('./images/image1.jpg');
+background-image: url('./images/IMG_8035.JPG');
 background-position: center center;
 background-repeat: no-repeat;
 background-size: cover;
