@@ -96,9 +96,16 @@ border-radius: 6px;
     grid-template-columns: repeat(4, 1fr); /* 4 columns */
     grid-template-rows: repeat(3, auto);   /* 3 rows */
     gap: 20px;
-    max-width: 1400px;
+    max-width: 1600px;
     text-align: center;
     margin: 0 auto;
+}
+.grid img{
+    max-width: 300px;
+    width: 100%;
+    border-radius: 1.5em;
+    box-shadow: 10px 17px 17px;
+
 }
 .col{
 flex-direction: column;
@@ -111,18 +118,6 @@ width: 50%;
 .col1 img{
 height: 100%;
 object-fit: contain;
-}
-.max-col-w-400{
-max-width: 400px;
-height: 325px;
-margin: auto;
-align-content: center;
-}
-.max-col-w-300{
-    max-width: 300px;
-    height: 275px;
-    margin: auto;
-    align-content: center;
 }
 
 .col2{
@@ -146,21 +141,7 @@ margin: auto;
     max-width: 400px;
     margin: auto;
 }
-/* content sections (aside) */
-.asideContainer{
-width: 100%;
-margin: auto;
-justify-content: center;
 
-}
-.asideContent{
-display: flex;
-max-width: 1400px;
-width: 100%;
-margin: auto;
-flex-direction: row;
-padding: 2.5% 0px;
-}
 
 .flex-col {
 font-family: hashFont;
@@ -184,62 +165,6 @@ height: 60px;
 justify-content: space-between;
 margin: 0px;
 }
-.derbyBG{
-background-image: url('./images/lego derby.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.friedrichBG{
-background-image: url('./images/freidreichBG.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.lseBG{
-background-image: url('./images/LSEelem.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.hikeBG{
-    background-image: url('./images/hike-1-1-2025.jpeg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 6px;
-    }
-.aueBG{
-background-image: url('./images/aueElem.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.mcandBG{
-background-image: url('./images/mcand-elem.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.ellisonBG{
-background-image: url('./images/ellison-elem.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-border-radius: 6px;
-}
-.rainGutterBG{
-background-image: url('./images/raingutter_regatta_bsa.jpg');
-background-position: center center;
-background-repeat: no-repeat;
-background-size: cover;
-height: 350px;  
-}
 .overlay  {
 background-color: #00000080;
 width: 80%;
@@ -247,64 +172,6 @@ margin: auto;
 color: white;
 text-align: center;
 padding: 1% 0px;
-}
-.titleBG{
-background-color: #05007f70;
-color: #fadf3c;
-padding: 10px;
-position: absolute;
-}
-/* den list */
-.denListContainer {
-    justify-content: stretch;
-}
-ul {
-padding: 20px;
-}
-li{
-list-style: none;
-font-weight: bold;
-padding: 5px 0px;
-
-}
-/* footer */
-.footerContainer{
-width: 100%;
-height: 350px;
-background: linear-gradient(#ffffff, #fadf3c80, #2d509f80);
-}
-.footerContent{
-display: flex;
-flex-direction: row;
-max-width: 1400px;
-width: 90%;
-margin: auto;
-padding-top: 90px;
-}
-.footerCol{
-flex-direction: column;
-width: 25%;
-display: flex;
-margin: auto;
-justify-content: center;
-align-items: center;
-}
-.footerButton{
-border: 2px solid #2d509f;
-height: 40px;
-border-radius: 5px;
-align-content: center;
-padding: 10px;
-color: #fadf3c;
-width: 150px;
-text-align: center;
-background-color: #2d509f;
-text-transform: uppercase;
-font-weight: 700;
-}
-.footerButton:hover{
-background-color: #fadf3c;
-color: #2d509f;
 }
 
 /* globals */
@@ -341,7 +208,7 @@ padding-top: 1%;
 justify-content: center;
 }
 .j-content-dynamic{
-    justify-content: space-around;
+justify-content: space-around;
 }
 .m-auto{
 margin: auto;
@@ -358,14 +225,7 @@ display: contents;
 /* Mobile rendering */
 
 @media (max-width: 800px) { 
-.whatsnextphotos{
-    width: 285px ;
-    height: 260px;
-}
-.longerwhatsnextphotos{
-    width: 285px ;
-    height: 125px;
-}
+
 .hash{
     font-size: 22px;
 }
@@ -382,48 +242,9 @@ flex-direction: column;
 display: grid !important;
 height: 460px
 }
-
-.footerContent{
-flex-direction: column;
-height: 90%;
-}
-.heroButton{
-width: 140px;
-margin-top: 25px
-}
-.footerContainer{
-height: 650px;
-}
-.mobileHelp{
-position: relative;
-bottom: 15px;
-}
-.asideContent{
-flex-direction: column;
-row-gap: 20px
-}
-.rankBadgeImg{
-width: 90%
-}
 .overlay{
 width: 90%;
 }
-.lseBG, .ellisonBG, .ffsBG, .wwaBG, .mcandBG, .aueBG, .friedrichBG {
-height: 235px;
-width: 90%;
-}
-.tigerHeroBG, .bearHeroBG, .wolfHeroBG, .webelosHeroBG, .lionHeroBG {
-background-size: 50%;
-
-}
-.webelosHeroBG {
-    background-size: 30%;
-}
-.wolfInActionPic, .lionInActionPic, .aolInActionPic, .bearInActionPic, .tigerInActionPic, .webeloInActionPic, .aolHeroBG{
-    background-size: 80%;
-    margin-bottom: 10px
-}
-
 .j-content-dynamic{
     display: grid;
     justify-content: center;
@@ -446,10 +267,6 @@ background-size: 50%;
     margin:0px auto;
     width: 90%;
     padding: 0px 0px;
-}
-.footerCol{
-    width: 90%;
-    margin: auto;
 }
 .d-block{
     display: none;
@@ -486,9 +303,4 @@ left: -10px;
     font-size: 120px;
     color: #05007f;
 
-}
-
-/* Insta CSS  */
-.xwxc41k {
-    display: none !important;
 }
