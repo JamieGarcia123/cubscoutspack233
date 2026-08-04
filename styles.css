@@ -33,6 +33,9 @@ height: 85px;
 color: #ffffff;
 z-index: 1;
 }
+.headerContainer img {
+    height: 300px;
+}
 .headerContent{
 display: flex;
 justify-content: space-between;
@@ -63,12 +66,12 @@ flex-direction: column;
 justify-content: center;
 }
 .heroContent{
-    padding:85px auto;
+padding: 85px auto;
 width: 100%;
-max-width: 1440px;
+max-width: 1600px;
 display: flex;
 flex-direction: row;
-margin: auto;
+margin: 50px auto;
 }
 .heroButton{
 border: 2px solid #2d509f;
@@ -117,15 +120,25 @@ width: 50%;
 }
 .col1 img{
 height: 100%;
-object-fit: contain;
+object-fit: cover;
 }
 
 .col2{
 align-content: center;
 flex-direction: column;
-width: 50%;
-max-width: 500px;
+width: 100%;
+max-width: 600px;
 margin: auto;
+}
+.h2Banner{
+    width: 100%;
+    background-color: #243e2c;
+    text-align: center;
+    padding: 10px 0px;
+    margin: 50px 0px;
+}
+.h2Banner h2{
+    color: #d6cebd;
 }
 .col3{
     align-content: center;
@@ -189,11 +202,13 @@ font-size: 2.5em;
 margin: 10px auto;
 }
 h2{
-font-size: 2.0em;
-margin: 10px 0px;
+font-size: 1.75em;
+margin: 20px 0px;
 }
+
 h3{
 font-size: 1.35em;
+margin: 10px 0px;
 }
 p{
 font-weight: 600;
@@ -251,11 +266,11 @@ width: 90%;
 }
 .col1{
     margin: auto;
-    width: 90%;
+    width: 100%;
 }
 .col2{
     margin:0px auto;
-    width: 90%;
+    width: 100%;
     padding: 0px 0px;
 }
 .col3{
