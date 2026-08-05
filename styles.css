@@ -15,7 +15,11 @@ letter-spacing: 1.1px;
 margin: 0px;
 
 }
-
+.adventureBanner{
+    width: 100dvw;
+    height: 400px;
+    object-fit: cover;
+}
 a{
 text-decoration: none;
 color: #05007f;
@@ -46,18 +50,8 @@ width: 90%;
 margin: auto;
 max-width: 1400px;
 }
-.headerLogo{
-height:65px;
-width: 65px;
-}
-.hash{
-font-family: hashFont !important;
-font-size: 32px;
-font-weight: 500;
-}
-.hash span{
-color: #fadf3c;
-}
+
+
 /* hero sections */
 .heroContainer{
 color: #2d509f;
@@ -103,12 +97,12 @@ border-radius: 6px;
     text-align: center;
     margin: 0 auto;
 }
+
 .grid img{
     max-width: 300px;
     width: 100%;
     border-radius: 1.5em;
-    box-shadow: 10px 17px 17px;
-
+box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
 }
 .col{
 flex-direction: column;
@@ -130,6 +124,8 @@ width: 100%;
 max-width: 600px;
 margin: auto;
 }
+
+
 .h2Banner{
     width: 100%;
     background-color: #243e2c;
@@ -140,51 +136,13 @@ margin: auto;
 .h2Banner h2{
     color: #d6cebd;
 }
-.col3{
-    align-content: center;
-    flex-direction: column;
-    width: 33%;
-    max-width: 300px;
-    margin: auto;
-    }
-.col4{
-    align-content: center;
-    flex-direction: column;
-    width: 25%;
-    max-width: 400px;
-    margin: auto;
-}
 
-
-.flex-col {
-font-family: hashFont;
-display: flex;
-flex-direction: column;
-width: 100%;
-background-color: #2d509f;
-color: #fadf3c;
-height: 75px;
-justify-content: center;
-margin: 0px;
-}
-.flex-row {
-font-family: hashFont;
-display: flex;
-flex-direction: row;
-width: 100%;
-background-color: #2d509f;
-color: #fadf3c;
-height: 60px;
-justify-content: space-between;
-margin: 0px;
-}
-.overlay  {
-background-color: #00000080;
-width: 80%;
-margin: auto;
-color: white;
-text-align: center;
-padding: 1% 0px;
+.emailUS{
+    display: flex;
+    background-color: #243e2c;
+    padding: 20px 25px;
+    width: 50%;
+    color: #fff;
 }
 
 /* globals */
@@ -241,62 +199,13 @@ display: contents;
 
 @media (max-width: 800px) { 
 
-.hash{
-    font-size: 22px;
-}
-.mobileHeaderHash{
-position: fixed;
-top: 45px;
-left: 110px;
-font-size: 16px;
-}
+
 .headerContainer{
 flex-direction: column;
 }
-.heroContent{
-display: grid !important;
-height: 460px
-}
-.overlay{
-width: 90%;
-}
-.j-content-dynamic{
-    display: grid;
-    justify-content: center;
-}
-.col1{
-    margin: auto;
-    width: 100%;
-}
-.col2{
-    margin:0px auto;
-    width: 100%;
-    padding: 0px 0px;
-}
-.col3{
-    margin:0px auto;
-    width: 90%;
-    padding: 0px 0px;
-}
-.col4{
-    margin:0px auto;
-    width: 90%;
-    padding: 0px 0px;
-}
-.d-block{
-    display: none;
-}
-.d-contents{
-display: none;
-}
-h1{
-font-size: 2.0em;
-margin: 10px auto;
-}
-h2{
-    font-size: 1.55em;
-    margin: 10px 0px;
-}
+
+
+
 }
 
 /* font awsome customizations*/
@@ -318,4 +227,47 @@ left: -10px;
     font-size: 120px;
     color: #05007f;
 
+}
+
+@media screen and (max-width: 787px) {
+    .adventureBanner{
+        height: 200px;
+        object-fit: fill;
+    }
+    .heroContent{
+        display: flex;
+        margin: auto;
+        flex-direction: column;
+    }
+    
+    h1{
+    font-size: 2.0em;
+    margin: 10px auto;
+    }
+    h2{
+        font-size: 1.55em;
+        margin: 10px 0px;
+    }
+    .col2{
+    margin:0px auto;
+    width: 100%;
+    padding: 0px 0px;
+}
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* 4 columns */
+        grid-template-rows: repeat( auto);   /* 3 rows */
+    }
+    .grid img {
+        height: 175px;
+        width: 85%;
+    }
+    .ovenPic{
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+        margin: 30px auto;
+        display: flex;
+        justify-content: center;
+    }
 }
